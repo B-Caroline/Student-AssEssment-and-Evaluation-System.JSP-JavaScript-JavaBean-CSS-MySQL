@@ -1,0 +1,79 @@
+body {
+    background: url(../jpg/view/view01.jpg) fixed ;
+    background-size: 100% 100%;
+}
+.thead{
+    height: 5%;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 33px;
+}
+.tbody{
+    margin-top: 0;
+    height: 95%;
+    width: 100%;
+}
+.login{
+    width: 200px;
+    height: 300px;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px 0 rgba(0, 0, 0, .9);/*阴影*/
+    padding: 40px;
+}
+p{
+    font-size:25px;
+    font-weight:400;
+    color:white;
+}
+input{
+    width: 200px;
+    height: 30px;
+    /*border-radius: 10px;*/
+    border: 0; /* 首先将边界取消，方便下面修改下部边界宽度 */
+    border-bottom: 5px solid white; /* 将下边界进行修改，显示出横线效果 */
+    font-size: 18px;/* 将字体适当的变大加粗 */
+    background: #ffffff00; /* 将输入框设置为透明 */
+    padding: 5px 10px; /* 为了placeholder的内容不是顶格显示，增加内部边界 */
+}
+input::-webkit-input-placeholder {
+    color:white;
+}
+.btn {
+    /* 设置合适的按钮的长和宽 */
+    width: 70px;
+    /* height: 30px; */
+    text-transform: uppercase;
+    border: 3px solid #FFFFFF; /* 设置按钮的边界粗细和颜色 */
+    margin-top: 3px; /* 设置合适的上部外框的宽度，增加与上面的password框的距离 */
+    text-align: center;
+    font-size: 18px; /* 修改按钮文字的大小 */
+    /* 设置按钮里面字体颜色 */
+    color: #FFFFFF;
+    line-height: 50px;
+    border-radius: 20px; /* 将按钮的左右边框设置为圆弧 */
+    cursor: pointer;
+    /* 圆角弧度24px */
+    transition:0.2s;
+    /* 设置按钮背景为透明 */
+    background:rgba(0,0,0,0);
+}
+.CenterBody{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+a:link {/*定义正常链接的样式*/
+    color: orangered;
+    text-decoration:none;
+    font-size: 30px;
+}
+/*定义鼠标悬浮在链接上时的样式*/
+a:hover {
+    font-weight:bold;
+    color: red;
+    text-decoration:none;
+    font-size: 35px;
+}

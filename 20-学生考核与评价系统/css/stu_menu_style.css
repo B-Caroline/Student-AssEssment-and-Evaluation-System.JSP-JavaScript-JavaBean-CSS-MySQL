@@ -1,0 +1,36 @@
+body{
+    background: url("../jpg/24hr-Earth_11.jpeg")fixed;
+    background-size: 100% 100%;
+}
+.head{
+    background-color: #2196F3;
+    height: 100px;
+}
+.p1{
+    height: 100px;
+    width: 100px;
+    color: white;
+}
+.aside{
+    background-color: yellow;
+    height: 1024px;
+    width: 180px;
+    float: left;
+    position: absolute;
+}
+.article{
+    background: url("../jpg/3.jpg");
+    height: 1024px;
+    width: 1024px;
+    background-size: cover;
+    float: right;
+    position: relative;
+}
+.footer{
+    background-color: #CC66FF;
+    height: 100px;
+}
+.form3{
+    background-color: white;
+    height: 100px;
+}
